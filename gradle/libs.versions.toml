@@ -3,8 +3,9 @@
 compose = "2024.05.00"
 compose-activity = "1.9.0"
 compose-lifecycle = "2.8.1"
-compose-navigation = "2.7.7"
+compose-navigation = "2.8.0-beta02"
 core = "1.13.1"
+serialization = "1.6.3"
 
 android = "8.4.1"
 kotlin = "2.0.0"
@@ -25,9 +26,11 @@ compose-activity = { group = "androidx.activity", name = "activity-compose", ver
 compose-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "compose-lifecycle" }
 compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "compose-navigation" }
 core = { group = "androidx.core", name = "core-ktx", version.ref = "core" }
+serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
 
 [plugins]
 
 android = { id = "com.android.application", version.ref = "android" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
