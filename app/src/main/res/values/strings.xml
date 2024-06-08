@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TypeSafeComposeNavigation</string>
+
+    <!-- ScreenA -->
+    <string name="screen_a">Screen A</string>
+    <string name="navigate_screen_b">Navigate to Screen B</string>
+
+    <!-- ScreenB -->
+    <string name="screen_b">Screen B</string>
+    <string name="your_years_old">%1$d years old</string>
 </resources>
